@@ -47,11 +47,13 @@ nav{
 
 .logo{
     display: flex;
+    align-items: center;
 }
 
 .logo img{
     width: 46px;
     margin-right: 12px;
+    height: 100%;
 }
 
 .nav-item ul{
@@ -233,7 +235,75 @@ nav{
 /* kind of game start */
 
 .kind-of-game{
-    width: 100px;
-    height: 100px;
-    background-color: #8758F1;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.games img{
+    width: 1rem;
+}
+
+.games{
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+.games:hover{
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+
+/* footer start */
+
+footer{
+    background-color: #0B0223;
+    height: 300px;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.footer-container{
+    width: 60%;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-us{
+    display: flex;
+}
+
+.about-us span{
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.sosial-icon i{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    cursor: pointer;
+}
+
+.setting{
+    display: flex;
+}
+
+.setting p{
+    padding: 1rem 1rem;
+    cursor: pointer;
 }
