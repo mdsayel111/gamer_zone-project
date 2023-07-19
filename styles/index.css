@@ -100,12 +100,12 @@ nav{
 }
 
 .play-like-text{
-    font-size: 25px;
+    font-size: 50px;
     color: #0B0223;
 }
 
 .play-like-left h1{
-    font-size: xx-large;
+    font-size: 80px;
 }
 
 .play-like-item{
@@ -227,6 +227,7 @@ nav{
 }
 
 .small-img{
+    width: 300px;
     position: absolute;
     top: calc(100% - 250px);
     right: calc(100% - 150px);
@@ -245,6 +246,7 @@ nav{
     justify-content: center;
 }
 
+
 .games img{
     width: 1rem;
 }
@@ -254,6 +256,7 @@ nav{
     gap: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 50px;
+    align-items: center;
 }
 
 .games:hover{
@@ -286,6 +289,8 @@ footer{
 
 .about-us{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .about-us span{
@@ -301,6 +306,8 @@ footer{
 
 .setting{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .setting p{
