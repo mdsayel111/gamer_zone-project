@@ -1,0 +1,93 @@
+/* common css start */
+
+:root{
+    --primary-color: #FF42A5;
+    --secendary-color: #A055E3;
+    --tertiary-color: #4EC5F7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.div-max-width{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* nav start */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 46px;
+    margin-right: 12px;
+}
+
+.nav-item ul{
+    display: flex;
+    list-style: none;
+}
+
+.logo h1 span{
+    color: var(--primary-color);
+}
+
+.nav-item ul li{
+    padding: 12px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.nav-item ul li:last-child{
+    background-color: #E7E6E9;
+    border-radius: 3px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+/* play-like section start */
+
+.play-like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.play-like-right img{
+    width: 470px;
+}
+
+.play-like-text{
+    font-size: 25px;
+    color: #0B0223;
+}
+
+.play-like-left h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: xx-large;
+}
