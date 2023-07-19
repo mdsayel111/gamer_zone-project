@@ -31,6 +31,7 @@
 
     .play-like{
         margin-top: 3rem;
+        gap: 3rem;
     }
 
     .play-like-right img{
@@ -39,7 +40,7 @@
 
     footer{
         width: 100%;
-        height: 345px;
+        height: 515px;
     }
 
     .games p{
@@ -98,6 +99,10 @@
         align-items: center;
     }
 
+    .play-like{
+        gap: 3rem;
+    }
+
     .cart-item-container{
         flex-wrap: wrap;
     }
@@ -133,6 +138,7 @@
 
     .play-like{
         margin-top: 3rem;
+        gap: 3rem;
     }
 
     footer{
