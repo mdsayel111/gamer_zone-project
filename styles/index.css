@@ -212,7 +212,11 @@ nav{
 }
 
 .play-instantly-container-left h2{
-    margin-bottom: 0.7rem;
+    margin-bottom: 2rem;
+}
+
+.play-instantly-container-left *{
+    line-height: 2rem;
 }
 
 .play-instantly-container{
@@ -223,7 +227,7 @@ nav{
 }
 
 .play-instantly-container-right{
-    width: 50%;
+    width: 40%;
     position: relative;
 }
 
@@ -232,10 +236,10 @@ nav{
 }
 
 .small-img{
-    width: 300px;
+    width: 207px;
     position: absolute;
-    top: calc(100% - 250px);
-    right: calc(100% - 150px);
+    top: calc(100% - 150px);
+    right: calc(100% - 110px);
 }
 
 /* kind of game start */
