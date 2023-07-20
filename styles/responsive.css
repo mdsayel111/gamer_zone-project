@@ -14,7 +14,7 @@
     }
     .play-instantly-container-left-text{
         margin-bottom: 3rem;
-        width: 130%;
+        width: 100%;
         text-align: center;
     }
 
@@ -81,7 +81,7 @@
     .site-info{
         font-size: 0.6rem;
         text-align: center;
-        padding: 2rem;
+        padding: 1rem;
     }
     
     /* .games{

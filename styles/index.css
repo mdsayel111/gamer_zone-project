@@ -25,6 +25,11 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    background-color: transparent !important;
+    border: 1px solid var(--primary-color);
+}
+
 p{
     color: #534C64;
 }
@@ -303,7 +308,6 @@ footer{
     padding: 0 1.5rem;
     cursor: pointer;
 }
-
 .setting{
     display: flex;
     flex-wrap: wrap;
@@ -316,5 +320,5 @@ footer{
 }
 
 footer *{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
